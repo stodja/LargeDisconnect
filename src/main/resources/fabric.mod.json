@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "large-disconnect",
+	"version": "${version}",
+	"name": "Large Disconnect",
+	"description": "Large disconnect button",
+	"authors": [
+		"stodja"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/largedisconnect",
+		"sources": "https://github.com/stodja/LargeDisconnect"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/large-disconnect/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"stodja.largedisconnect.LargeDisconnect"
+		],
+		"modmenu": [
+			"stodja.largedisconnect.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"large-disconnect.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": ">=3.8.1+1.21.11-fabric"
+	}
+}
