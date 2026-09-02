@@ -1,4 +1,4 @@
-# LargeDisconnect
+# Large Disconnect
 Minecraft Mod to customize the Disconnect button height
 
 This project is licensed under the [PolyForm Noncommercial License](LICENSE)
